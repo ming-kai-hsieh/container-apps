@@ -60,11 +60,11 @@
         "qcsVersion": "1.8"
     },
     {
-        "description": "PyTorch is a deep learning framework that puts Python first. It provides Tensors and Dynamic neural networks in Python with strong GPU acceleration.",
+        "description": "PyTorch is a deep learning framework that puts Python first. It provides Tensors and Dynamic neural networks in Python with strong GPU acceleration. (Note: Note: This image assign the CPU as the default computing device, and you can change to GPU on "Advanced Settings -> Device -> Add".)",
         "repository": "dockerhub",
         "arch": "amd64",
         "icon": "https://raw.githubusercontent.com/qnap-dev/container-apps/master/images/ai_default.png",
-        "displayName": "Pytorch - GPU",
+        "displayName": "Pytorch - CPU/GPU",
         "name": "pytorch/pytorch",
         "version": "0.4.1-cuda9-cudnn7-devel",
         "location": "https://hub.docker.com/r/pytorch/pytorch",
@@ -72,11 +72,11 @@
         "qcsVersion": "1.8"
     },
     {
-        "description": "Chainer is a Python-based deep learning framework aiming at flexibility. This is official chainer image.",
+        "description": "Chainer is a Python-based deep learning framework aiming at flexibility. This is official chainer image. (Note: This image assign the CPU as the default computing device, and you can change to GPU on "Advanced Settings -> Device -> Add".)",
         "repository": "dockerhub",
         "arch": "amd64",
         "icon": "https://raw.githubusercontent.com/qnap-dev/container-apps/master/images/ai_default.png",
-        "displayName": "Chainer - GPU",
+        "displayName": "Chainer - CPU/GPU",
         "name": "chainer/chainer",
         "version": "v5.0.0b4-python3",
         "location": "https://hub.docker.com/r/chainer/chainer",
